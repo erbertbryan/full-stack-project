@@ -12,7 +12,7 @@
         {% for course in courses %}
             <li>
                 <a href="{% url 'students_list' course.id %}">{{ course.name }}</a>
-                <!-- <p>{{ course.name }} | Semester:{{ course.semester }}</p> -->
+                 <!-- <p>{{ course.name }} | Semester:{{ course.semester }}</p> -->
             </li>
         {% endfor %}
     </ul>
